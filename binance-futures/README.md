@@ -21,7 +21,7 @@ Simple trader bot for Binance Futures.
 
 ## Mais informações
 
-Crie suas chaves de API para Futuros com este vídeo: https://www.youtube.com/watch?v=FCzgqr2P0_g
+Crie suas chaves de API para Futuros com este vídeo: https://www.youtube.com/watch?v=Aex5ytH_ENg
 
 Tutorial em https://www.luiztools.com.br/post/como-criar-um-bot-trader-para-binance-futures-em-node-js/
 
