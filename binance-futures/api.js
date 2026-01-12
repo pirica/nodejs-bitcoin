@@ -8,11 +8,8 @@ const apiUrl = process.env.API_URL;
 if (!apiKey || !apiSecret || !apiUrl)
     throw new Error('Preencha corretamente seu .env');
 
-async function newOrder(symbol, quantity, side = 'BUY', type = 'MARKET', price = 0) {
+async function newOrder(symbol, quantity, side = 'BUY', type = 'MARKET') {
     const data = { symbol, side, type, quantity };
-
-    if (price) data.price = parseInt(price);
-    if (type === 'LIMIT') data.timeInForce = 'GTC';
 
     const timestamp = Date.now();
     const recvWindow = 60000;//máximo permitido, default 5000

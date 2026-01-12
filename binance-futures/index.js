@@ -9,6 +9,7 @@ ws.onmessage = async (event) => {
     const obj = JSON.parse(event.data);
     console.log(`Symbol: ${obj.s}`);
     console.log(`Price: ${obj.c}`);
+    console.log(`Is Opened? ${isOpened}`);
 
     const price = parseFloat(obj.c);
 
